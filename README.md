@@ -1,5 +1,7 @@
 # Jeu de la Vie 🌌
 
+![Simpsons GIF](https://giphy.com/clips/thesimpsons-the-simpsons-episode-3-season-32-UQxmLIaAVVW0W4F3lq)
+
 Le Jeu de la Vie, inventé par le mathématicien John Horton Conway, est un automate cellulaire qui simule la vie et l'évolution de cellules sur une grille. Ce projet est une implémentation en Java utilisant Swing pour l'interface graphique.
 
 ## Fonctionnalités 🚀
