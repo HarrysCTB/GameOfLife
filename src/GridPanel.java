@@ -1,14 +1,19 @@
 package src;
 import javax.swing.JPanel;
-
 import java.awt.Graphics;
 
 public class GridPanel extends JPanel {
     private CellGrid grid;
-    private final int cellSize = 10;
+    private int cellSize;
 
-    public GridPanel(CellGrid grid) {
+    public GridPanel(CellGrid grid, int windowWidth, int windowHeight) {
         this.grid = grid;
+        this.cellSize = Math.min(windowWidth / grid.getWidth(), windowHeight / grid.getHeight());
+    }
+
+    public void updateGrid(CellGrid newGrid, int newWindowWidth, int newWindowHeight) {
+        this.grid = newGrid;
+        this.cellSize = Math.min(newWindowWidth / grid.getWidth(), newWindowHeight / grid.getHeight());
     }
 
     @Override
@@ -23,4 +28,3 @@ public class GridPanel extends JPanel {
         }
     }
 }
-

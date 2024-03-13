@@ -47,7 +47,7 @@ public class CellGrid {
         int count = 0;
         for (int i = -1; i <= 1; i++) {
             for (int j = -1; j <= 1; j++) {
-                if (i == 0 && j == 0) continue; // Skip the cell itself
+                if (i == 0 && j == 0) continue;
                 int dx = x + i;
                 int dy = y + j;
                 if (dx >= 0 && dx < width && dy >= 0 && dy < height && grid[dx][dy]) {
