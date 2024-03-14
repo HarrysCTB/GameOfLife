@@ -4,6 +4,22 @@
 
 Le Jeu de la Vie, inventé par le mathématicien John Horton Conway, est un automate cellulaire qui simule la vie et l'évolution de cellules sur une grille. Ce projet est une implémentation en Java utilisant Swing pour l'interface graphique.
 
+## Mise à jour 🔄
+
+Dernière mise à jour : 14/03/2024
+
+- Ajout d'une barre de menu
+- Mise en place des fonctionnalités dans le menu "Edit" : pause, reprendre, réinitialiser, ajouter une cellule
+
+## Prochaines fonctionnalités 🌈
+
+Voici quelques fonctionnalités que nous prévoyons d'ajouter :
+
+- Mise en place des fonctionnalités dans la section "Fichier" de la barre de menu
+- Ajout d'un système de couleurs pour améliorer le design
+- Possibilité de charger des motifs spécifiques
+- Ajout d'une infobulle affichant les noms des cellules lorsque le jeu est en pause
+
 ## Fonctionnalités 🚀
 
 - **Simulation Dynamique** : Observez les cellules vivre, mourir et évoluer dans un monde en grille.
