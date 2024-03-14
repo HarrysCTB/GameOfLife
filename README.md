@@ -1,6 +1,9 @@
 # Jeu de la Vie 🌌
 
-![Simpsons GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmJvYWI1bzI3MnFsZXozcHZvYXlncXNtaW04NnRjNmptdjRodTVmMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/17XAjPucc8Qda/giphy.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmJvYWI1bzI3MnFsZXozcHZvYXlncXNtaW04NnRjNmptdjRodTVmMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/17XAjPucc8Qda/giphy.gif" />
+</p>
+
 
 Le Jeu de la Vie, inventé par le mathématicien John Horton Conway, est un automate cellulaire qui simule la vie et l'évolution de cellules sur une grille. Ce projet est une implémentation en Java utilisant Swing pour l'interface graphique.
 
