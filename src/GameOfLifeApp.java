@@ -1,4 +1,12 @@
 package src;
+
+import java.awt.Robot;
+import java.awt.Rectangle;
+import java.awt.image.BufferedImage;
+import javax.imageio.ImageIO;
+import java.io.File;
+import java.io.IOException;
+import java.awt.AWTException;
 import javax.swing.JFrame;
 import javax.swing.Timer;
 import javax.swing.JMenu;
@@ -25,15 +33,23 @@ public class GameOfLifeApp extends JFrame {
 
         JMenu fileMenu = new JMenu("Fichier");
         JMenuItem newItem = new JMenuItem("Nouveau");
-        JMenuItem openItem = new JMenuItem("Ouvrir");
+        JMenuItem LoadItem = new JMenuItem("Charger");
         JMenuItem saveItem = new JMenuItem("Enregistrer");
-        JMenuItem saveAsItem = new JMenuItem("Enregistrer sous");
         JMenuItem exitItem = new JMenuItem("Quitter");
         exitItem.addActionListener(e -> System.exit(0));
+        saveItem.addActionListener(e -> {
+            try {
+                Robot robot = new Robot();
+                Rectangle captureRect = new Rectangle(getBounds());
+                BufferedImage screenImage = robot.createScreenCapture(captureRect);
+                ImageIO.write(screenImage, "JPG", new File("screenshot_gameoflife.jpg"));
+            } catch (AWTException | IOException ex) {
+                ex.printStackTrace();
+            }
+        });
         fileMenu.add(newItem);
-        fileMenu.add(openItem);
+        fileMenu.add(LoadItem);
         fileMenu.add(saveItem);
-        fileMenu.add(saveAsItem);
         fileMenu.add(exitItem);
         menuBar.add(fileMenu);
 
