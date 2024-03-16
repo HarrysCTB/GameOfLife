@@ -11,14 +11,12 @@ Le Jeu de la Vie, inventé par le mathématicien John Horton Conway, est un auto
 
 Dernière mise à jour : 14/03/2024
 
-- Ajout d'une barre de menu
-- Mise en place des fonctionnalités dans le menu "Edit" : pause, reprendre, réinitialiser, ajouter une cellule
+- Ajout de la fonction "Enregistrer" dans la barre de menu
 
 ## Prochaines fonctionnalités 🌈
 
 Voici quelques fonctionnalités que nous prévoyons d'ajouter :
 
-- Mise en place des fonctionnalités dans la section "Fichier" de la barre de menu
 - Ajout d'un système de couleurs pour améliorer le design
 - Possibilité de charger des motifs spécifiques
 - Ajout d'une infobulle affichant les noms des cellules lorsque le jeu est en pause
