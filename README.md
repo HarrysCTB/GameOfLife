@@ -38,8 +38,8 @@ Dans le répertoire du projet, exécutez :
 
 ## 🎥 Démonstration
 
-![Capture d'écran de mon application](https://imgur.com/C76sgwa)
-![Capture d'écran de mon application](https://imgur.com/pl7OaZ4)
+[Imgur](https://i.imgur.com/C76sgwa.png)
+[Imgur](https://i.imgur.com/pl7OaZ4.png)
 
 ## Contribution 🤝
 
