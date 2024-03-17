@@ -36,6 +36,11 @@ Pour lancer le Jeu de la Vie, assurez-vous d'avoir Java installé sur votre mach
 Dans le répertoire du projet, exécutez :
 3. **Exécutez l'application** :
 
+## 🎥 Démonstration
+
+![Capture d'écran de mon application](https://imgur.com/C76sgwa)
+![Capture d'écran de mon application](https://imgur.com/pl7OaZ4)
+
 ## Contribution 🤝
 
 Les contributions sont toujours les bienvenues ! Que ce soit pour des améliorations, des corrections de bugs ou des suggestions, n'hésitez pas à ouvrir une issue ou à proposer une pull request.
