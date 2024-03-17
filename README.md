@@ -38,6 +38,11 @@ Dans le répertoire du projet, exécutez :
 
 ## 🎥 Démonstration
 
+
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnY1MXY5bTYyYXF6czY5c3BqZ3prZ3QxNmJ5N2VuNGZscWlqbTVjNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/B6IJ2zqoMccFK8jwb8/giphy.gif" />
+</p>
+
 ![Imgur](https://i.imgur.com/C76sgwa.png)
 ![Imgur](https://i.imgur.com/pl7OaZ4.png)
 
